@@ -1,0 +1,399 @@
+{
+	"Sheets": [
+		{
+			"Name": "Sheet1",
+			"Data": [
+				{
+					"RowNumber": 0,
+					"Cells": [
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "Date"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "Numeric"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "String"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "Formula"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "Bool"
+						}
+					]
+				},
+				{
+					"RowNumber": 1,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42736"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "1"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "a"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B2^2",
+							"Value": "3.1415926535897931"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "1"
+						}
+					]
+				},
+				{
+					"RowNumber": 2,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42767"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "2"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "b"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B3^2",
+							"Value": "12.566370614359172"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "0"
+						}
+					]
+				},
+				{
+					"RowNumber": 3,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42795"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "3"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "c"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B4^2",
+							"Value": "28.274333882308138"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "0"
+						}
+					]
+				},
+				{
+					"RowNumber": 4,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42461"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "4"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "a"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B5^2",
+							"Value": "50.26548245743669"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "1"
+						}
+					]
+				},
+				{
+					"RowNumber": 5,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42491"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "5"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "b"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B6^2",
+							"Value": "78.539816339744831"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "0"
+						}
+					]
+				},
+				{
+					"RowNumber": 6,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42522"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "6"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "c"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B7^2",
+							"Value": "113.09733552923255"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "1"
+						}
+					]
+				},
+				{
+					"RowNumber": 7,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42552"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "7"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "a"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B8^2",
+							"Value": "153.93804002589985"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "1"
+						}
+					]
+				},
+				{
+					"RowNumber": 8,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42583"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "8"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "b"
+						},
+						{
+							"Type": 5,
+							"Formula": "PI*B9^2",
+							"Value": "#NAME?"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "0"
+						}
+					]
+				},
+				{
+					"RowNumber": 9,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42614"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "9"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "c"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B10^2",
+							"Value": "254.46900494077323"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "1"
+						}
+					]
+				},
+				{
+					"RowNumber": 10,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42644"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "10"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "a"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B11^2",
+							"Value": "314.15926535897933"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "1"
+						}
+					]
+				},
+				{
+					"RowNumber": 11,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42675"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "11"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "b"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B12^2",
+							"Value": "380.13271108436498"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "0"
+						}
+					]
+				},
+				{
+					"RowNumber": 12,
+					"Cells": [
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "42705"
+						},
+						{
+							"Type": 2,
+							"Formula": "",
+							"Value": "12"
+						},
+						{
+							"Type": 0,
+							"Formula": "",
+							"Value": "c"
+						},
+						{
+							"Type": 1,
+							"Formula": "PI()*B13^2",
+							"Value": "452.38934211693021"
+						},
+						{
+							"Type": 3,
+							"Formula": "",
+							"Value": "0"
+						}
+					]
+				}
+			]
+		}
+	]
+}
