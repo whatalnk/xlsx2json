@@ -58,14 +58,20 @@ func xlsx2json(input string, output string) {
 		xlBook.Sheets = append(xlBook.Sheets, xlSheet)
 	}
 	jsonData, _ := json.MarshalIndent(xlBook, "", "\t")
-	f, err := os.Create(output)
-	if err != nil {
-		log.Fatal(err)
+	if output == "-" {
+		if _, err := os.Stdout.Write(jsonData); err != nil {
+			log.Fatal(err)
+		}
+	} else {
+		f, err := os.Create(output)
+		if err != nil {
+			log.Fatal(err)
+		}
+		if _, err := f.Write(jsonData); err != nil {
+			log.Fatal(err)
+		}
+		defer f.Close()
 	}
-	if _, err := f.Write(jsonData); err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
 }
 
 func json2xlsx(input string, output string) {
@@ -146,7 +152,7 @@ func main() {
 			output = filepath.Base(input) + ".xlsx"
 		}
 	}
-	if filepath.Ext(input) == ".xlsx" && filepath.Ext(output) == ".json" {
+	if filepath.Ext(input) == ".xlsx" && (output == "-" || filepath.Ext(output) == ".json") {
 		xlsx2json(input, output)
 	} else if filepath.Ext(input) == ".json" && filepath.Ext(output) == ".xlsx" {
 		json2xlsx(input, output)
