@@ -1,18 +1,24 @@
 # xlsx2json
-## *.xlsx => *.json (file)
+## Install
+```
+go get github.com/whatalnk/xlsx2json
+go install github.com/whatalnk/xlsx2json
+```
+## Usage
+### *.xlsx => *.json (file)
 ```
 xlsx2json -input=data.xlsx -output=data.xlsx.json
 ```
-## *.xlsx => *.json (stdout)
+### *.xlsx => *.json (stdout)
 ```
 xlsx2json -input=data.xlsx -output=-
 ```
-## *.json => *.xlsx
+### *.json => *.xlsx
 ```
 xlsx2json -input=data.xlsx.json -output=data.xlsx.json.xlsx
 ```
 
-## Diffing
+### Diffing
 *  `.gitattributes`
 ```
 *.xlsx diff=xlsx2json
